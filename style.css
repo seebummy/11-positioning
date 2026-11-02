@@ -1,5 +1,32 @@
 html {
     background-color: beige;
+    padding: 30px;
+}
+
+code {
+    background-color: #f7c5e1;
+    color: #ca4ea7;
+     padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+.main {
+ width: 500px;
+    max-width: fit-content;
+    margin: 50px auto;
+    line-height: 22px;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .site-nav {
@@ -11,6 +38,8 @@ html {
 display: flex;
 list-style-type: none;
 padding: 0;
+justify-content: center;
+gap: 50px;
 }
 
 .site-link {
@@ -47,3 +76,4 @@ padding: 10px 30px;
 .has-dropdown:hover .dropdown {
 display: block;
 }
+
